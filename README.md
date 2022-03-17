@@ -1,3 +1,7 @@
+# 主流数字货币价格波动提醒
+
+盯梢频道：https://www.dingshao.cn/share/channel/PxeGdZ
+
 # 盯梢脚本模板
 
 盯梢频道脚本除了可以在 [script.dingshao.cn](https://script.dingshao.cn) 直接编辑部署外，还可以使用 dss 命令构建后通过 npm 命令发布到盯梢脚本专有的 registry 地址（`https://script.dingshao.cn/registry/`）。
