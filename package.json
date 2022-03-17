@@ -17,7 +17,8 @@
     "prepublishOnly": "yarn build"
   },
   "dependencies": {
-    "@digshare/script": "^0.3.0"
+    "@digshare/script": "^0.3.0",
+    "node-fetch": "2"
   },
   "devDependencies": {
     "@types/node": "14",
