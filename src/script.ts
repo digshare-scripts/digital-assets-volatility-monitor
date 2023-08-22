@@ -83,5 +83,8 @@ export default script<State>(async ({mutes = {}} = {}) => {
       tags,
       content: messages.join('\n\n'),
     },
+    state: {
+      mutes,
+    },
   };
 });

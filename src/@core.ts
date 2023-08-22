@@ -22,8 +22,6 @@ export interface AssetVolatility {
 export async function getAssetVolatility(
   symbol: string,
 ): Promise<AssetVolatility> {
-  console.log(CANDLES_API_URL(symbol));
-
   const candles = await fetch(CANDLES_API_URL(symbol)).then(
     response =>
       response.json() as Promise<
